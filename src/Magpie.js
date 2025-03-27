@@ -157,7 +157,7 @@ export default class Magpie extends EventEmitter {
       : NoopObject(
           () =>
             (this.warning =
-              'You are making use of Socket functionality, but no socket URL is set in magpie.config.js')
+              '')
         );
 
     this.trialData = window.magpie_trial_data = {};
